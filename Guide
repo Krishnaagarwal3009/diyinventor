@@ -1,0 +1,36 @@
+# Connection of LCD
+
+- **GND** → GND of Arduino  
+- **VCC** → VCC of Arduino  
+- **V0** → GND of Arduino  
+- **RS** → Pin 11 of Arduino  
+- **R/W** → GND of Arduino  
+- **E** → Pin 10 of Arduino  
+- **D4** → Pin 5 of Arduino  
+- **D5** → Pin 4 of Arduino  
+- **D6** → Pin 3 of Arduino  
+- **D3** → Pin 2 of Arduino  
+- **LCD 5V** → 1K Resistor → VCC of Arduino  
+- **LCD GND** → GND of Arduino  
+
+# Connection of HC-SR04
+
+- **VCC** → VCC of Arduino  
+- **GND** → GND of Arduino  
+- **Echo** → Pin 7 of Arduino  
+- **Trig** → Pin 8 of Arduino  
+
+# Connection of Buzzer
+
+- **Negative** → GND of Arduino  
+- **Positive** → Pin A0 of Arduino  
+
+# Connection of Alerting LED
+
+- **All LED Negatives** → GND of Arduino  
+- **LED 1 Positive** → Pin 6 of Arduino  
+- **LED 2 Positive** → Pin 9 of Arduino  
+- **LED 3 Positive** → Pin 12 of Arduino  
+- **LED 4 Positive** → Pin 13 of Arduino  
+- **Safe LED Negative** → GND  
+- **Safe LED Positive** → Pin A2 of Arduino  
